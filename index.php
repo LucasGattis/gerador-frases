@@ -1,3 +1,11 @@
+<?php
+
+    $titulos = ["Belissimo", "Pika", "Mestre"];
+    $qualidades = ["O Mestre das rimas", "O Flow Intergalatico", "O chavão"];
+    $nome = "Jubalinha";
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,6 +16,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>ola jubalinha mones</h2>
+    <h2>ola <?php echo $titulos[rand(0,2)]." $nome, ".$qualidades[rand(0,2)]; ?> </h2>
 </body>
 </html>
